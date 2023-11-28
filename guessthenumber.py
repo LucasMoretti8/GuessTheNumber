@@ -20,12 +20,22 @@ class GuessTheNumber():
             computer_number.play()
         else:
             print("Wrong option!")
-
+    
 #Endgame
         print("Do you wanna play again?" + "\n" + "y for yes n for no:")
         play = input("Choose: ")
+
+#Validation
+        while play not in {"y", "n"}:
+            print("Invalid input. Please enter 'y' or 'n':")
+            play = input("Choose: ")
+
+#Endgame message
         if (play == "y"):
             print("Ok, lets go again!")
+            continue
+        else:
+            break
 
 #Program exit
     print("Ok, See you soon! Bye!")
