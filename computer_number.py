@@ -11,6 +11,6 @@ def play():
     guess = int(input("Your guess: "))
     time.sleep(2)
     if (number == guess):
-        print("WHAT?! That's impossible!  It was {}! You got it!" + "\n" + "Congratulations. good game!".format(number))
+        print("WHAT?! That's impossible!  It was {}.format(number)! You got it!" + "\n" + "Congratulations. good game!")
     else:
         print("HAHA!! YOU LOSE!! It was {}!".format(number) + "\n" + "Better luck next time")
