@@ -1,4 +1,3 @@
-import random
 import user_number, computer_number
 
 class GuessTheNumber():
