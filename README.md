@@ -1,5 +1,5 @@
 Hello,
 
-just a fun game about guessing the number.
+just a little game about guessing the number.
 
 Have Fun!
